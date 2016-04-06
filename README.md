@@ -1,11 +1,11 @@
 #### PixelPrison ####
 Free the flag from the pixels!
 
-Brought to you by Team 0xDEADBEEF:
-1000457 James Wiryo
-1000493 Hiang Cheong Kai
-1000546 Loo Juin
-1000600 Koh En Yan
+Brought to you by Team 0xDEADBEEF:\n
+1000457 James Wiryo\n
+1000493 Hiang Cheong Kai\n
+1000546 Loo Juin\n
+1000600 Koh En Yan\n
 
 Instructions:
 The flag has been encoded into a 2-dimensional pixel array.
