@@ -1,6 +1,17 @@
 from flask import Flask, request, render_template
 import random
 
+'''
+#### PixelPrison ####
+Free the flag from the pixels!
+
+Brought to you by Team 0xDEADBEEF:
+1000457 James Wiryo
+1000493 Hiang Cheong Kai
+1000546 Loo Juin
+1000600 Koh En Yan
+'''
+
 def collate(int_array):
 	buf = []
 	for b in range(8):
@@ -46,9 +57,12 @@ def my_form():
 
 @app.route('/', methods=['POST'])
 def my_form_post():
+	if request.form['my-form'] == "Prisoner":
+		return render_template("flag.html")
 	text = request.form['text']
 	cipher = encode(text)
+	#return repr(cipher)
 	return render_template("my-cipher.html", cipher = cipher)
 
 if __name__ == '__main__':
-	app.run(debug=False)
+	app.run()
