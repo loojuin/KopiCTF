@@ -51,4 +51,4 @@ def my_form_post():
 	return render_template("my-cipher.html", cipher = cipher)
 
 if __name__ == '__main__':
-	app.run(debug=True)
+	app.run(debug=False)
